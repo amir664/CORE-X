@@ -1,0 +1,308 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly riscv.fivestagetest, Some(3a9bbd28-4c16-4faf-b2bc-6511999ce991), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 16 Scala sources to /home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:4:19: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass ALU extends Module{[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:5:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO(new Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:5:21: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO(new Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:6:20: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_a = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:6:26: not found: value SInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_a = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:6:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_a = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:7:20: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_b = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:7:26: not found: value SInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_b = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:7:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_b = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:8:21: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val Aluop = Input(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:8:27: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val Aluop = Input(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:8:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val Aluop = Input(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:9:22: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m        val Result = Output(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:9:29: not found: value SInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val Result = Output(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:9:37: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val Result = Output(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/ALU.scala:12:5: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m    when (io.Aluop === 0.U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:4:22: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass Branch extends Module{[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:5:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO(new Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:5:21: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO(new Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:6:20: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_a = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:6:26: not found: value SInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_a = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:6:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_a = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:7:20: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_b = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:7:26: not found: value SInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_b = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:7:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val in_b = Input(SInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:8:22: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m        val branch = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:8:29: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m        val branch = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:9:21: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val Aluop = Input(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:9:27: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val Aluop = Input(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:9:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val Aluop = Input(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/Branch.scala:12:5: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m    when ((io.Aluop === 3.U && io.in_a === io.in_b)||(io.Aluop === 4.U && io.in_a > io.in_b)){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:6:21: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_ADD = 0.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:6:25: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_ADD = 0.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:7:21: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SLL = 1.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:7:25: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SLL = 1.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:8:20: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SLT= 2.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:8:24: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SLT= 2.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:9:22: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_BEQ  = 3.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:9:26: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_BEQ  = 3.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:10:21: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_BGE = 4.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:10:25: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_BGE = 4.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:11:21: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_XOR = 5.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:11:25: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_XOR = 5.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:12:21: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SB  = 6.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:12:25: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SB  = 6.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:13:22: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_LB  =  7.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:13:26: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_LB  =  7.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:14:21: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SUB = 8.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:14:25: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SUB = 8.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:15:21: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SLTU= 9.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:15:25: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SLTU= 9.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:16:22: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_JAL = 10.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:16:26: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_JAL = 10.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:17:22: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_JALR =11.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:17:26: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_JALR =11.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:18:22: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SRA = 12.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:18:26: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SRA = 12.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:19:22: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SRL = 13.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:19:26: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val ALU_SRL = 13.U(4.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:21:27: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass alu_control extends Module{[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:22:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO(new Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:22:21: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO(new Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:23:21: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val Aluop = Input (Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:23:28: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m        val Aluop = Input (Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:24:23: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val op_code = Input(UInt(7.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:24:29: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val op_code = Input(UInt(7.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:24:36: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val op_code = Input(UInt(7.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:25:21: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val func3 = Input(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:25:27: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val func3 = Input(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:25:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val func3 = Input(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:26:21: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val func7 = Input (UInt(7.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:26:28: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val func7 = Input (UInt(7.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:26:35: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val func7 = Input (UInt(7.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:27:20: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m        val ctrl = Output(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:27:27: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val ctrl = Output(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:27:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val ctrl = Output(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:32:5: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m    when(io.Aluop === 1.B){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/alu_control.scala:33:9: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m        when ((io.op_code ==="b0110011".U && io.func3 === 0.U && io.func7 === 0.U ) || ( io.op_code === "b0010011".U && io.func3 === 0.U )){[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:4:23: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass control extends Module{[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:5:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO (new Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:5:22: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO (new Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:6:23: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m        val op_code = Input (UInt(7.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:6:30: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val op_code = Input (UInt(7.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:6:37: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val op_code = Input (UInt(7.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:7:24: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m        val memwrite = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:7:31: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m        val memwrite = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:8:22: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m        val branch = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:8:29: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m        val branch = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:9:23: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m        val memread = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:9:30: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m        val memread = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:10:24: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m        val regwrite = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/Desktop/Aamir/Scala-Chisel-Learning-Journey-main/src/main/scala/riscv/control.scala:10:31: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m        val regwrite = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m100 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 9 s, completed Mar 1, 2023, 4:56:30 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
