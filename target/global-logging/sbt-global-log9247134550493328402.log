@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly riscv.fivestagetest -- -DwriteVcd=1, Some(b7b28d0d-b178-4d3c-a22c-ffef1380bb45), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/amir/my-work/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/my-work/Scala-Chisel-Learning-Journey/src/main/scala/riscv/forwarding.scala:57:184: not found: value p1_rs1[0m
+[0m[[0m[31merror[0m] [0m[0m     when(io.p3_regwrite === 1.U && io.p3_regwrite =/= 0.U && ~((io.p2_regWrite === 1.U) && (io.p2_rd=/= 0.U) && (io.p2_rd === io.p1_rs1) && (io.p2_rd === io.p1_rs2)) && (io.p3_rd=== p1_rs1) && (io.p3_rd === io.p1_rs2)) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Mar 20, 2023, 3:46:47 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

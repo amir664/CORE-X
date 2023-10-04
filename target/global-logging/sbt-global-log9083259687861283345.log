@@ -1,0 +1,34 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"33","parents":[]},"eventTime":1678531237733,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/amir/my-work/Scala-Chisel-Learning-Journey/#root/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/amir/my-work/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to /home/amir/my-work/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/amir/my-work/Scala-Chisel-Learning-Journey/src/main/scala/riscv/hazardDetect.scala"},"buildTarget":{"uri":"file:/home/amir/my-work/Scala-Chisel-Learning-Journey/#root/Compile"},"diagnostics":[{"range":{"start":{"line":5,"character":8},"end":{"line":5,"character":9}},"severity":1,"source":"sbt","message":"illegal start of simple expression"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/my-work/Scala-Chisel-Learning-Journey/src/main/scala/riscv/hazardDetect.scala:6:9: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m        val inst = [0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"/home/amir/my-work/Scala-Chisel-Learning-Journey/src/main/scala/riscv/hazardDetect.scala:6:9: illegal start of simple expression"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"        val inst = "})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"        ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/amir/my-work/Scala-Chisel-Learning-Journey/src/main/scala/riscv/hazardDetect.scala"},"buildTarget":{"uri":"file:/home/amir/my-work/Scala-Chisel-Learning-Journey/#root/Compile"},"diagnostics":[{"range":{"start":{"line":7,"character":0},"end":{"line":7,"character":1}},"severity":1,"source":"sbt","message":"')' expected but '}' found."}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/my-work/Scala-Chisel-Learning-Journey/src/main/scala/riscv/hazardDetect.scala:8:1: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m} [0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"/home/amir/my-work/Scala-Chisel-Learning-Journey/src/main/scala/riscv/hazardDetect.scala:8:1: ')' expected but '}' found."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"} "})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"^"})[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"two errors found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/amir/my-work/Scala-Chisel-Learning-Journey/src/main/scala/riscv/hazardDetect.scala"},"buildTarget":{"uri":"file:/home/amir/my-work/Scala-Chisel-Learning-Journey/#root/Compile"},"diagnostics":[{"range":{"start":{"line":5,"character":8},"end":{"line":5,"character":9}},"severity":1,"source":"sbt","message":"illegal start of simple expression"},{"range":{"start":{"line":7,"character":0},"end":{"line":7,"character":1}},"severity":1,"source":"sbt","message":"')' expected but '}' found."}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"33","parents":[]},"eventTime":1678531271255,"message":"Compiled root","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/amir/my-work/Scala-Chisel-Learning-Journey/#root/Compile"},"errors":2,"warnings":0,"time":33522}})[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId None: {"code":-32603,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"}[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 43 s, completed Mar 11, 2023, 3:41:11 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

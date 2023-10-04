@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly riscv.fivestagetest -- -DwriteVcd=1, Some(8b6b3407-4e8e-4aad-aa37-87a45cbbcc1e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/amir/my-work/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/amir/my-work/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amir/my-work/Scala-Chisel-Learning-Journey/src/main/scala/riscv/fivestage.scala:74:11: value write is not a member of chisel3.Bundle{val p2_regWrite: chisel3.UInt; val p2_rd: chisel3.UInt; val p1_rs1: chisel3.UInt; val p1_rs2: chisel3.UInt; val p1_rd: chisel3.UInt; val p3_regwrite: chisel3.UInt; val p3_rd: chisel3.UInt; val f_a: chisel3.UInt; val f_b: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0m    fu.io.write := p3.io.memwr_out[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Mar 18, 2023, 7:49:20 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

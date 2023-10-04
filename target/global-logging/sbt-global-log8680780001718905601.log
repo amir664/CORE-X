@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly riscv.fivestagetest, Some(072657dd-29f3-43f6-9253-ad05255dfda7), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 36 Scala sources to /home/amir/my-work/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.13. Compiling...[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[0minfo[0m] [0m[0mAttempting to fetch org.scala-sbt:compiler-bridge_2.12:1.8.0.[0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: testOnly riscv.fivestagetest[0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: testOnly riscv.fivestagetest[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'last' for the full log.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtried to call schedule on closed TaskProgress[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
